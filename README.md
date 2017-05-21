@@ -1,4 +1,4 @@
-# Output Data Object(s)/Array(s) into Formatted Terminal Table (Python)
+# Output Data Object/Array into Formatted Table (Python)
 Just a project more for myself to refer back to when working on future Python projects. Outputs an array of objects into a formatted terminal table.
 
 # Setup
@@ -8,4 +8,4 @@ Just a project more for myself to refer back to when working on future Python pr
   cd python-data2table
   python python-data2table.py
   ```
-*Data will instantly output formatted to Terminal* 
+*Data will instantly output formatted to Terminal/Console* 
