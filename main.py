@@ -18,17 +18,16 @@ countries = [
 
 print('\nDUMP:')
 print(countries)
-print('\nSANITIZED:')
 
+print('\nSANITIZED:')
 print('[')
 while x < len(countries):
     print(tab + str(countries[x]))
     x += 1
 print(']')
 
+# loop countries - array of objects
 print('\nTABLE:')
-        
-# loop countries array of objects
 print('Countries | Population')
 print('-' * len('Countries | Population'))
 while y < len(countries):
