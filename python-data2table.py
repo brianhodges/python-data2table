@@ -16,24 +16,24 @@ countries = [
     }
 ]
 
-print '\nDUMP:'
+print('\nDUMP:')
 print(countries)
-print '\nSANITIZED:'
+print('\nSANITIZED:')
 
-print '['
+print('[')
 while x < len(countries):
-    print tab + str(countries[x])
+    print(tab + str(countries[x]))
     x += 1
-print ']'
+print(']')
 
-print '\nTABLE:'
+print('\nTABLE:')
         
 # loop countries array of objects
-print 'Countries | Population'
-print '-' * len('Countries | Population')
+print('Countries | Population')
+print('-' * len('Countries | Population'))
 while y < len(countries):
     z = len('Countries ') - len(countries[y]['name'])
-    print countries[y]['name'] + (' ' * z) + '|' + countries[y]['population']
+    print(countries[y]['name'] + (' ' * z) + '|' + countries[y]['population'])
     y += 1
 
-print '\n'
+print('\n')
